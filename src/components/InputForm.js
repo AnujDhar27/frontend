@@ -17,7 +17,7 @@ const InputForm = () => {
       };
 
       // Make the API call to your deployed Flask app
-      const response = await axios.post('https://vercel.com/anujdhar27s-projects/bajaj-finserv/5rUzzV47UbthVc47tFHKgSeRcjRm', parsedData);
+      const response = await axios.post('https://bajaj-finserv-pied.vercel.app/', parsedData);
       setResponseData(response.data);
 
     } catch (err) {
